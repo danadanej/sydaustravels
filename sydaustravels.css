@@ -72,7 +72,17 @@ footer {
   width: auto;
   height: 50px;
   margin-top: 20px;
+  margin-bottom: 20px;
   background-color: darkgreen;
   color: beige;
   text-align: center;
 }
+
+/*p {
+  width: auto;
+  height: 50px;
+  background-color: darkgreen;
+  color: black;
+  text-align: center;
+}
+*/

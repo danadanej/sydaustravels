@@ -1,6 +1,7 @@
 /* JavaScript/.js Document */
 
-var d = new Date(2018, 11, 24, 10);
+/* JavaScript to show present date and time - shows in footer of html page*/
+var d = new Date();
 document.getElementById("datetime").innerHTML = d;
 
 /* button Contact Form and styling */
@@ -10,7 +11,7 @@ var speed = 50;
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
+    document.getElementById("click").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
